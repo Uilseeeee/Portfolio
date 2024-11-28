@@ -5,7 +5,6 @@
 header {
     width: 1440px;
     height: 104px;
-    background-color: lightpink;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,7 +42,6 @@ p {
 #header-border {
     height: 56px;
     width: 1280px;
-    background-color: aliceblue;
     display: flex;
     align-items: center;
     font-family: "Sora";
@@ -101,7 +99,6 @@ p {
 #face-section {
     height: 716px;
     width: 1440px;
-    background-color: lightcoral;
     display: flex;
     justify-content: center;
 }
@@ -109,7 +106,6 @@ p {
 #face-section-text {
     width: 600px;
     height: 376px;
-    background-color: lightblue;
     display: flex;
     align-self: center;
     position: relative;
@@ -144,13 +140,14 @@ p {
     text-decoration-skip-ink: none;
     margin-left: 10px;
 }
-.face-section-text-line{
+
+.face-section-text-line {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
 }
 
-.face-font-2{
+.face-font-2 {
     font-family: "Sora";
     font-size: 48px;
     font-weight: 800;
@@ -159,29 +156,724 @@ p {
     text-align: left;
     text-decoration-skip-ink: none;
 }
-#face-font-3{
-font-family: "Sora";
-font-size: 48px;
-font-weight: 800;
-line-height: 56px;
-letter-spacing: -0.02em;
-text-align: left;
-text-decoration-skip-ink: none;
-color: #ffffff;
-margin-left: 30px;
-}
-#face-section-info{
-font-family: "Sora";
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+
+#face-font-3 {
+    font-family: "Sora";
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: gold;
+    margin-left: 30px;
+    text-shadow: 2px 2px 0 black, -2px -2px 0 black, -2px 2px 0 black,
+        2px -2px 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 0 0 0 black,
+        -2px 0 0 black, 3px 3px 0 black, -3px -3px 0 black, -3px 3px 0 black,
+        3px -3px 0 black;
+
 
 }
-#intro-text{
+
+#face-section-info {
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+#intro-text {
     width: 600px;
     height: 208px;
+}
+
+#my-social {
+    position: absolute;
+    width: 320px;
+    height: 64px;
+    margin-top: 450px;
+    margin-left: 10px;
+    gap: 32px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+
+.button {
+    width: 56px;
+    height: 56px;
+    margin-top: 3px;
+}
+
+#my-skills-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 728px;
+}
+
+#my-skills-section-pos {
+    width: 1280px;
+    height: 608px;
+
+}
+
+#my-skills-title {
+    height: 96px;
+    width: 1216px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff
+}
+
+#my-skills-section-menu {
+    height: 492px;
+    width: 1216px;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.skills-section-menu-half {
+    height: 226px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.my-skills-box {
+    height: 186px;
+    width: 186px;
+}
+
+#my-experience-section {
+    width: 1440px;
+    height: 956px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#experience-section-pos {
+    height: 836px;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#experience-section-title {
+    height: 96px;
+    width: 1216px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#my-style {
+    font-family: "Sora";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+
+}
+
+#experience-style {
+
+    font-family: "Sora";
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 12px;
+    color: #fff;
+}
+
+#experience-section-info {
+    width: 1216px;
+    height: 720px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#info-1 {
+    height: 192px;
+    width: 1168px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #71717A;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#info-2 {
+    height: 192px;
+    width: 1168px;
+    background-color: #27272A;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#info-3 {
+    height: 192px;
+    width: 1168px;
+    border-style: solid;
+    border-color: #71717A;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#info1-pos1 {
+    height: 32px;
+    width: 1120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#info1-pos2 {
+    height: 72px;
+    width: 1120px;
+}
+
+#google {
+    height: 32px;
+    width: 32px;
+}
+
+.experience-section-text {
+    font-family: "Sora";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 18px;
+    color: #fff;
+
+}
+
+.experience-section-date {
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #D4D4D8;
+    margin-left: 520px;
+}
+
+#experience-section-text2 {
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #D4D4D8;
+}
+
+#info2-pos1 {
+    height: 32px;
+    width: 1120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#info2-pos2 {
+    height: 72px;
+    width: 1120px;
+}
+
+#yt-png {
+    height: 32px;
+    width: 32px;
+}
+
+#info3-pos1 {
+    height: 32px;
+    width: 1120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#info3-pos2 {
+    height: 72px;
+    width: 1120px;
+}
+
+#apple {
+    height: 32px;
+    width: 32px;
+}
+
+#apple-text {
+    font-family: "Sora";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+    margin-left: 15px;
+}
+
+#aboutme {
+    width: 1440px;
+    height: 692px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#aboutme-pos {
+    width: 1280px;
+    height: 572px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#aboutme-png {
+    height: 572px;
+    width: 525.45px;
+}
+
+#aboutme-text-pos {
+    height: 572px;
+    width: 610px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#aboutme-text-title {
+    width: 610px;
+    height: 92px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#aboutme-text {
+    height: 424px;
+    width: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.aboutme-text-position {
+    width: 610px;
+    height: 120px;
+}
+
+#aboutme-text-position {
+    width: 610px;
+    height: 140px;
+}
+
+.aboutme-text-style {
+
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #71717A;
+}
+
+#my-projects-section {
+    height: 1824px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#my-projects-section-pos {
+    width: 1280px;
+    height: 1704px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#my-projects-title {
+    height: 96px;
+    width: 1216px;
+}
+
+.my-projects-position {
+    width: 1216px;
+    height: 516px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#my-projects-png-1 {
+    width: 594px;
+    height: 476px;
+}
+
+#my-projects-info-1 {
+    width: 582px;
+    height: 296px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.projects-png {
+    width: 530px;
+    height: 397.73px;
+    border-radius: 14px;
+    object-fit: cover;
+}
+
+.font-4 {
+
+    font-family: "Sora";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+
+.projects-info-style {
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #71717A;
+}
+
+.read-more {
+    width: 20px;
+    height: 20px;
+}
+
+#my-testominal-section {
+    width: 1440px;
+    height: 714px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#testominal-section-pos {
+    width: 1280px;
+    height: 594px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+#testominal-section-title {
+    height: 96px;
+    width: 1216px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#testominal-section-info {
+    width: 1216px;
+    height: 478px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#testominal {
+    height: 398px;
+    width: 370px;
+}
+
+footer {
+    width: 1440px;
+    height: 604px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-pos {
+    width: 1280px;
+    height: 484px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#footer-section {
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #000;
+}
+
+#left-footer {
+
+    width: 608px;
+    height: 484px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#header-png-white{
+    height: 40px;
+    width: 40px;
+}
+
+#right-footer {
+    width: 608px;
+    height: 484px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#footer-ank-1 {
+    height: 56px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: #000;
+    border-radius: 4px;
+}
+
+#footer-ank-2 {
+    width: 500px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: #000;
+    border-radius: 4px;
+}
+
+#getin-touch {
+    height: 56px;
+    width: 493px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ank-text {
+    height: 20px;
+    width: 452px;
+}
+
+.ank-text-style {
+
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #71717A;
+
+}
+
+#ank-text2 {
+    height: 108px;
+    width: 452px;
+}
+
+#getin-png {
+    width: 173px;
+    height: 56px;
+}
+
+button {
+    height: 56px;
+    width: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#right-footer-title {
+    height: 192px;
+    width: 608px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#right-footer-lower {
+    height: 80px;
+    width: 608px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer-title-pos {
+    height: 56px;
+    width: 608px;
+}
+
+#footerpos {
+    height: 124px;
+    width: 608px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#footer-info {
+    height: 48px;
+    width: 608px;
+}
+
+.footer-title-style {
+    font-family: "Sora";
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+#footer-info-style {
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #71717A;
+
+}
+
+.lower-pos {
+    height: 32px;
+    width: 608px;
+}
+
+.lower-pos-style {
+    font-family: "Sora";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+#footer-section-pos {
+    height: 52px;
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#closing {
+    height: 52px;
+    width: 181px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.closing-pos {
+    height: 20px;
+    width: 181px;
+}
+.closing-style{
+font-family: "Sora";
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: -0.02em;
+text-align: right;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #fff;
+
 }
