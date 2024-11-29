@@ -138,13 +138,13 @@ p {
     letter-spacing: -0.02em;
     text-align: left;
     text-decoration-skip-ink: none;
-    margin-left: 10px;
+    margin-left: 1vw;
 }
 
 .face-section-text-line {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 1vh;
 }
 
 .face-font-2 {
@@ -155,6 +155,7 @@ p {
     letter-spacing: -0.02em;
     text-align: left;
     text-decoration-skip-ink: none;
+    margin-left: 1vw;
 }
 
 #face-font-3 {
@@ -165,7 +166,7 @@ p {
     letter-spacing: -0.02em;
     text-align: left;
     color: gold;
-    margin-left: 30px;
+    margin-left: 2vw;
     text-shadow: 2px 2px 0 black, -2px -2px 0 black, -2px 2px 0 black,
         2px -2px 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 0 0 0 black,
         -2px 0 0 black, 3px 3px 0 black, -3px -3px 0 black, -3px 3px 0 black,
@@ -181,7 +182,6 @@ p {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
-    text-underline-position: from-font;
     text-decoration-skip-ink: none;
 
 }
@@ -689,7 +689,8 @@ footer {
     flex-direction: column;
     justify-content: space-between;
 }
-#header-png-white{
+
+#header-png-white {
     height: 40px;
     width: 40px;
 }
@@ -865,18 +866,126 @@ button {
     height: 20px;
     width: 181px;
 }
-.closing-style{
-font-family: "Sora";
-font-size: 16px;
-font-weight: 600;
-line-height: 20px;
-letter-spacing: -0.02em;
-text-align: right;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: #fff;
+
+.closing-style {
+    font-family: "Sora";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
 
 }
-h4{
+
+h4 {
     margin: 0;
+}
+
+@media(max-width:375px) {
+    * {
+        max-width: 375px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #face-section {
+        height: 868px;
+        width: 375px;
+    }
+
+    #face-section-pos {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 788px;
+        width: 343px;
+    }
+
+    #intro-text {
+        font-size: 28px;
+        height: 120px;
+        width: 343px;
+    }
+
+    .face-text-1 {
+        font-size: 28px;
+    }
+
+    .face-font-2 {
+        font-size: 28px;
+    }
+
+    #face-font-3 {
+        font-size: 28px;
+    }
+
+    #face-section-png {
+        height: 332px;
+        width: 343px;
+        margin: 0;
+        position: inherit;
+    }
+
+    #intro-text {
+        height: 120px;
+        width: 343px;
+    }
+
+    #face-section-text {
+        position: inherit;
+
+
+    }
+
+    #my-social {
+        position: inherit;
+        gap: 24px;
+    }
+
+    .my-skills-box {
+        height: 160px;
+        width: 160px;
+    }
+
+    #face-section-info {
+        margin-top: 70px;
+    }
+
+    #my-skills-section-menu {
+        display: flex;
+        flex-direction: row;
+        padding-top: 24vh;
+    }
+
+    #my-skills-title {
+        height: 72px;
+        width: 343px;
+        margin-top: -10vh;
+    }
+    .experience-section-date{
+        margin-left: 10px;
+    }
+    #aboutme-pos{
+        display: flex;
+        flex-direction: column;
+    }
+    .my-projects-position{
+        display: flex;
+        flex-direction: column;
+    }
+    #footer-pos{
+        display: flex;
+        flex-direction: column;
+    }
+    #header-png-pos{
+        margin: 0;
+    }
+    #header-menu{
+        margin: 0;
+    }
+#header-button{
+    margin-left: 10px;
+}
 }
