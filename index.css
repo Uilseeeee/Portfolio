@@ -125,6 +125,16 @@ p {
     justify-content: space-between;
 }
 
+#face-section-text {
+    width: 600px;
+    height: 376px;
+    display: flex;
+    align-self: center;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 #face-section-png {
     width: 889px;
     height: 596px;
