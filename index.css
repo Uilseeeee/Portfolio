@@ -90,6 +90,18 @@ p {
     text-decoration-skip-ink: none;
 
 }
+#text-resume {
+    font-family: "Sora";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    text-align: left;
+    text-decoration-skip-ink: none;
+
+}
+
 
 #download-img {
     height: 20px;
